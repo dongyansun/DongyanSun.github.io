@@ -25,6 +25,17 @@ author_profile: false
     </div>
     <div class="hero-photo">
       <img src="/97fa90c2b8d7fe3097d011bda5ffe619.jpg" alt="Dongyan Sun">
+      <div class="hero-contact-links">
+        <a href="mailto:dongyans@usc.edu" class="hero-contact-link" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/dongyansun" target="_blank" rel="noopener" class="hero-contact-link" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="/JackSun_resume_spring2026.pdf" target="_blank" class="hero-contact-link hero-contact-cv" title="CV">
+          CV
+        </a>
+      </div>
     </div>
   </div>
   <div class="hero-scroll">
@@ -157,7 +168,7 @@ author_profile: false
     <h2 class="section-title reveal">Things I've Built</h2>
     <p class="section-subtitle reveal">
       A selection of research and engineering projects. More on
-      <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener">GitHub</a>.
+      <a href="https://github.com/dongyansun" target="_blank" rel="noopener">GitHub</a>.
     </p>
 
     <div class="projects-grid">
@@ -165,7 +176,7 @@ author_profile: false
         <div class="project-header">
           <span class="project-icon">🧠</span>
           <div class="project-links">
-            <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener" title="GitHub">
+            <a href="https://github.com/dongyansun" target="_blank" rel="noopener" title="GitHub">
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -184,7 +195,7 @@ author_profile: false
         <div class="project-header">
           <span class="project-icon">🔊</span>
           <div class="project-links">
-            <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener" title="GitHub">
+            <a href="https://github.com/dongyansun" target="_blank" rel="noopener" title="GitHub">
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -204,7 +215,7 @@ author_profile: false
         <div class="project-header">
           <span class="project-icon">🎵</span>
           <div class="project-links">
-            <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener" title="GitHub">
+            <a href="https://github.com/dongyansun" target="_blank" rel="noopener" title="GitHub">
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -223,7 +234,7 @@ author_profile: false
         <div class="project-header">
           <span class="project-icon">🏎️</span>
           <div class="project-links">
-            <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener" title="GitHub">
+            <a href="https://github.com/dongyansun" target="_blank" rel="noopener" title="GitHub">
               <i class="fab fa-github"></i>
             </a>
           </div>
@@ -317,7 +328,7 @@ author_profile: false
     <h2 class="section-title reveal">Get In Touch</h2>
     <div class="contact-email-display">dongyans@usc.edu</div>
     <div class="contact-icon-row">
-      <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener"
+      <a href="https://github.com/dongyansun" target="_blank" rel="noopener"
          class="contact-icon-link" title="GitHub">
         <i class="fab fa-github"></i>
       </a>
