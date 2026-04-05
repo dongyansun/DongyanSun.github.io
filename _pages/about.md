@@ -11,11 +11,11 @@ author_profile: false
     <div class="hero-text">
       <p class="hero-greeting">Hi, I'm</p>
       <h1 class="hero-name">Dongyan Sun<br><span class="hero-aka">(Jack)</span></h1>
-      <p class="hero-tagline">ECE @ USC &nbsp;·&nbsp; ML Systems &nbsp;·&nbsp; Efficient AI</p>
+      <p class="hero-tagline">ECE @ USC &nbsp;·&nbsp; ML Systems &nbsp;·&nbsp; Efficient AI &nbsp;·&nbsp; SNN</p>
       <p class="hero-bio">
         B.S./M.S. student in Electrical &amp; Computer Engineering at the University of Southern California.
-        I build efficient AI systems — from spiking neural networks to hardware-aware optimization and
-        scientific machine learning.
+        I build and study efficient AI systems — from spiking neural networks and mixture-of-experts
+        architectures to signal processing pipelines and embedded systems.
       </p>
       <div class="hero-cta">
         <a href="#research" class="btn-primary">Research</a>
@@ -24,7 +24,7 @@ author_profile: false
       </div>
     </div>
     <div class="hero-photo">
-      <img src="/jack.jpg" alt="Dongyan Sun">
+      <img src="/97fa90c2b8d7fe3097d011bda5ffe619.jpg" alt="Dongyan Sun">
     </div>
   </div>
   <div class="hero-scroll">
@@ -41,23 +41,24 @@ author_profile: false
     <div class="about-grid">
       <div class="about-text reveal">
         <p>
-          I'm an undergraduate student in the <strong>Progressive Degree Program</strong> at USC's Viterbi School
-          of Engineering, working toward both my B.S. and M.S. in Electrical &amp; Computer Engineering —
-          expected by Spring 2027.
+          I'm an undergraduate student in the <strong>Progressive Degree Program</strong> at USC's Viterbi
+          School of Engineering, working toward both a B.S. and M.S. in Electrical &amp; Computer
+          Engineering — GPA 3.6/4.0, expected May 2027.
         </p>
         <p>
-          My interests sit at the intersection of <strong>machine learning systems</strong>, <strong>parallel
-          computing</strong>, and <strong>efficient AI</strong>. I care about research that is practical,
-          rigorous, and system-aware — work that connects theory to real hardware constraints.
+          My research spans <strong>spiking neural networks</strong>, <strong>ML systems</strong>, and
+          <strong>biomedical signal processing</strong>. I've worked on temporal routing mechanisms for
+          event-driven neural networks and signal analysis pipelines for ultrasound research.
         </p>
         <p>
-          Outside the lab, I'm a member of USC's <strong>Formula SAE</strong> team on the electrical side,
-          where I work on embedded systems for our racing car. I enjoy combining theory, systems thinking,
-          and hands-on implementation.
+          Outside research, I'm a core member of <strong>USC Formula SAE</strong>, where I develop
+          real-time data acquisition systems, sensor integration, and wiring harnesses for our
+          competition race car. I enjoy work that combines theory, systems, and hands-on hardware.
         </p>
         <p>
-          I'm interested in long-term graduate study, especially PhD programs focused on AI systems
-          and efficient computing.
+          I'm a recipient of the <strong>USC Provost's Research Fellowship</strong> (Sep 2025) and a
+          former VEX Robotics National Champion. I'm interested in long-term graduate study and
+          PhD programs focused on AI systems and efficient computing.
         </p>
       </div>
       <div class="about-meta">
@@ -65,27 +66,27 @@ author_profile: false
           <span class="meta-icon">🎓</span>
           <div class="meta-content">
             <strong>University of Southern California</strong>
-            <span>B.S./M.S. Electrical &amp; Computer Engineering · Progressive Degree Program · Expected Spring 2027</span>
+            <span>B.S./M.S. ECE · Progressive Degree Program · GPA 3.6/4.0 · Expected May 2027</span>
           </div>
         </div>
         <div class="meta-card reveal reveal-delay-2">
-          <span class="meta-icon">📍</span>
+          <span class="meta-icon">🔬</span>
           <div class="meta-content">
-            <strong>Los Angeles, CA</strong>
-            <span>USC Viterbi School of Engineering</span>
+            <strong>Research</strong>
+            <span>Intelligent Computing Lab · Yang Bioacoustic Lab · USC Viterbi</span>
           </div>
         </div>
         <div class="meta-card reveal reveal-delay-3">
-          <span class="meta-icon">🔬</span>
+          <span class="meta-icon">🏆</span>
           <div class="meta-content">
-            <strong>Research Focus</strong>
-            <span>ML Systems · Efficient AI · Spiking Neural Networks · Scientific ML</span>
+            <strong>Awards</strong>
+            <span>USC Provost's Research Fellowship · VEX Robotics National Champions</span>
           </div>
         </div>
         <div class="meta-card reveal reveal-delay-4">
-          <span class="meta-icon">📧</span>
+          <span class="meta-icon">📍</span>
           <div class="meta-content">
-            <strong>Contact</strong>
+            <strong>Los Angeles, CA</strong>
             <span><a href="mailto:dongyans@usc.edu">dongyans@usc.edu</a></span>
           </div>
         </div>
@@ -100,50 +101,50 @@ author_profile: false
     <p class="section-label reveal">Research</p>
     <h2 class="section-title reveal">What I Work On</h2>
     <p class="section-subtitle reveal">
-      I'm interested in making AI systems faster, more efficient, and more expressive —
-      from the algorithm level down to the hardware and runtime.
+      I'm interested in making AI systems faster, more expressive, and more efficient —
+      from algorithm design down to hardware constraints and runtime systems.
     </p>
 
     <div class="research-grid">
       <div class="research-card reveal reveal-delay-1">
-        <span class="rc-icon">⚡</span>
-        <h3>ML Systems &amp; Efficiency</h3>
-        <p>Optimizing computation, memory, and runtime for machine learning workloads. Bridging the gap between model design and system-level constraints.</p>
-      </div>
-      <div class="research-card reveal reveal-delay-2">
         <span class="rc-icon">🧠</span>
         <h3>Spiking Neural Networks</h3>
-        <p>Exploring biologically-inspired sparse computation models. Currently working on a Mixture-of-Experts architecture for SNNs.</p>
+        <p>Designing a temporal conditional routing mechanism for MoE-based SNNs, enabling sparse, cost-efficient inference in spatiotemporal models at the Intelligent Computing Lab.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-2">
+        <span class="rc-icon">⚡</span>
+        <h3>Mixture-of-Experts for Event-Driven Networks</h3>
+        <p>Integrating rate-based representations with dynamic expert activation to reduce computation while preserving accuracy in event-driven neural architectures.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-3">
+        <span class="rc-icon">🔊</span>
+        <h3>Biomedical Signal Processing</h3>
+        <p>Built MATLAB/Python pipelines for FFT spectrum analysis, signal averaging, envelope extraction, and bandpass filtering across 100+ datasets at the Yang Bioacoustic Lab.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-1">
+        <span class="rc-icon">📡</span>
+        <h3>Ultrasound Imaging</h3>
+        <p>Conducted multilayer imaging simulations (Field II, k-Wave) characterizing beamforming, near-field interference, and −6 dB beamwidth for ultrasound transducer systems.</p>
+      </div>
+      <div class="research-card reveal reveal-delay-2">
+        <span class="rc-icon">🖥️</span>
+        <h3>ML Systems &amp; Efficiency</h3>
+        <p>Broadly interested in hardware-aware AI, parallel computing, scheduling, and compute allocation — connecting ML model design to system-level constraints.</p>
       </div>
       <div class="research-card reveal reveal-delay-3">
         <span class="rc-icon">🔢</span>
         <h3>Scientific Machine Learning</h3>
-        <p>Applying ML to PDE-based tasks. Investigating Fourier-based encoders and frequency-aware representations for improved routing and accuracy.</p>
-      </div>
-      <div class="research-card reveal reveal-delay-1">
-        <span class="rc-icon">🖥️</span>
-        <h3>Parallel Computing</h3>
-        <p>Studying how ML workloads interact with parallel runtimes, scheduling, and compute allocation across heterogeneous hardware.</p>
-      </div>
-      <div class="research-card reveal reveal-delay-2">
-        <span class="rc-icon">📡</span>
-        <h3>Frequency-Aware Representations</h3>
-        <p>Investigating whether spectral and frequency-domain features improve model accuracy and routing decisions in scientific settings.</p>
-      </div>
-      <div class="research-card reveal reveal-delay-3">
-        <span class="rc-icon">🔧</span>
-        <h3>Hardware-Aware AI</h3>
-        <p>Designing models and training pipelines with hardware in mind — minimizing bottlenecks in memory bandwidth, cache, and compute throughput.</p>
+        <p>Exploring Fourier-based encoders and frequency-aware representations for PDE-based tasks. Investigating whether spectral features improve routing and generalization.</p>
       </div>
     </div>
 
     <div class="research-focus reveal">
       <h3>🚀 Current Focus</h3>
       <ul>
-        <li>Spiking Neural Network Mixture-of-Experts: architecture design, routing efficiency, and training stability</li>
-        <li>Fourier encoder for scientific ML: testing spectral representations on PDE benchmark tasks</li>
+        <li>SNN Mixture-of-Experts at Intelligent Computing Lab: temporal routing, sparse inference, training stability</li>
+        <li>Fourier encoder for scientific ML: spectral representations on PDE benchmark tasks</li>
         <li>Frequency-aware routing: whether spectral features help expert selection and task accuracy</li>
-        <li>System-level scheduling and compute allocation for heterogeneous ML workloads</li>
+        <li>System-level compute allocation and scheduling for heterogeneous ML workloads</li>
       </ul>
     </div>
   </div>
@@ -170,7 +171,7 @@ author_profile: false
           </div>
         </div>
         <h3>SNN Mixture-of-Experts</h3>
-        <p>A spiking neural network architecture integrating mixture-of-experts routing. Explores sparse, event-driven computation for efficient inference on neuromorphic-inspired tasks.</p>
+        <p>Temporal conditional routing mechanism for event-driven neural networks. Selects experts based on accumulated evidence over time, enabling sparse and cost-efficient inference in spatiotemporal models.</p>
         <div class="project-tags">
           <span class="tag">Python</span>
           <span class="tag">PyTorch</span>
@@ -181,24 +182,44 @@ author_profile: false
 
       <div class="project-card reveal reveal-delay-2">
         <div class="project-header">
-          <span class="project-icon">🌊</span>
+          <span class="project-icon">🔊</span>
           <div class="project-links">
             <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener" title="GitHub">
               <i class="fab fa-github"></i>
             </a>
           </div>
         </div>
-        <h3>Fourier Encoder for Scientific ML</h3>
-        <p>Investigating frequency-aware input encodings for PDE-based machine learning tasks. Tests whether spectral representations improve routing accuracy and generalization.</p>
+        <h3>Ultrasound Signal Analysis Pipelines</h3>
+        <p>MATLAB/Python pipelines for FFT spectrum analysis, signal averaging, envelope extraction, and bandpass filtering across 100+ experimental datasets. Improved reproducibility and visualization accuracy for ultrasound imaging research.</p>
         <div class="project-tags">
+          <span class="tag">MATLAB</span>
           <span class="tag">Python</span>
-          <span class="tag">Scientific ML</span>
-          <span class="tag">Fourier</span>
-          <span class="tag">PDE</span>
+          <span class="tag">FFT</span>
+          <span class="tag">k-Wave</span>
+          <span class="tag">Field II</span>
         </div>
       </div>
 
       <div class="project-card reveal reveal-delay-3">
+        <div class="project-header">
+          <span class="project-icon">🎵</span>
+          <div class="project-links">
+            <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+        <h3>Embedded Audio Generation System</h3>
+        <p>Rotary encoder-based real-time tone generator with interrupt-driven quadrature decoding and state machine control. Uses Timer1 interrupts for precise frequency control with LCD display feedback.</p>
+        <div class="project-tags">
+          <span class="tag">C++</span>
+          <span class="tag">Arduino</span>
+          <span class="tag">Embedded</span>
+          <span class="tag">State Machine</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-1">
         <div class="project-header">
           <span class="project-icon">🏎️</span>
           <div class="project-links">
@@ -207,13 +228,13 @@ author_profile: false
             </a>
           </div>
         </div>
-        <h3>Formula SAE Electrical Systems</h3>
-        <p>Electrical systems development for USC's Formula SAE race car. Includes embedded controls, wiring harness design, and sensor integration for real-time vehicle monitoring.</p>
+        <h3>Formula SAE Data Acquisition System</h3>
+        <p>Real-time telemetry system with aero pressure scanners and wheel speed sensors for USC's race car. Optimized wiring harness reduced weight by 15%; system integrates ECU, PDM, and 20+ sensors.</p>
         <div class="project-tags">
           <span class="tag">Embedded</span>
-          <span class="tag">C</span>
           <span class="tag">CAN Bus</span>
-          <span class="tag">Hardware</span>
+          <span class="tag">Sensors</span>
+          <span class="tag">Telemetry</span>
         </div>
       </div>
     </div>
@@ -228,40 +249,60 @@ author_profile: false
 
     <div class="experience-list">
       <div class="exp-card reveal reveal-delay-1">
-        <div class="exp-logo">🔬</div>
+        <div class="exp-logo">🧠</div>
         <div class="exp-content">
-          <p class="exp-role">Undergraduate Researcher</p>
-          <p class="exp-org">University of Southern California</p>
-          <p class="exp-date">2024 – Present</p>
+          <p class="exp-role">Undergraduate Researcher — SNN &amp; Efficient AI</p>
+          <p class="exp-org">Intelligent Computing Lab, USC</p>
+          <p class="exp-date">August 2025 – Present</p>
           <p class="exp-desc">
-            Working on spiking neural network architectures and scientific machine learning. Exploring
-            frequency-aware representations, MoE routing, and efficient training for PDE-based tasks.
+            Developing a temporal conditional routing mechanism for MoE-based spiking neural networks.
+            Designed a framework integrating rate-based representations with dynamic expert activation
+            to enable sparse, cost-efficient inference in spatiotemporal models.
           </p>
         </div>
       </div>
 
       <div class="exp-card reveal reveal-delay-2">
-        <div class="exp-logo">🏎️</div>
+        <div class="exp-logo">🔬</div>
         <div class="exp-content">
-          <p class="exp-role">Electrical Team Member</p>
-          <p class="exp-org">USC Formula SAE Racing Team</p>
-          <p class="exp-date">2023 – Present</p>
+          <p class="exp-role">Undergraduate Researcher — Piezoelectric &amp; Ultrasound</p>
+          <p class="exp-org">Yang Bioacoustic Lab, USC</p>
+          <p class="exp-date">March 2025 – January 2026</p>
           <p class="exp-desc">
-            Designing and building embedded electrical systems for a formula-style racing car. Responsibilities
-            include embedded firmware, sensor integration, wiring harness, and CAN bus communication.
+            Built MATLAB/Python signal processing pipelines for FFT analysis, envelope extraction, and
+            bandpass filtering across 100+ datasets. Conducted ultrasound experiments and multilayer
+            imaging simulations (Field II, k-Wave). Designed Arduino-based embedded systems for
+            ultrasound actuation and synchronized data acquisition.
           </p>
         </div>
       </div>
 
       <div class="exp-card reveal reveal-delay-3">
-        <div class="exp-logo">🎓</div>
+        <div class="exp-logo">🏎️</div>
         <div class="exp-content">
-          <p class="exp-role">B.S./M.S. Student — Progressive Degree Program</p>
-          <p class="exp-org">USC Viterbi School of Engineering · ECE</p>
-          <p class="exp-date">2023 – Expected Spring 2027</p>
+          <p class="exp-role">Electrical Team — Core Member</p>
+          <p class="exp-org">USC Formula SAE Racing Team</p>
+          <p class="exp-date">January 2024 – Present</p>
           <p class="exp-desc">
-            Pursuing concurrent bachelor's and master's degrees in Electrical &amp; Computer Engineering.
-            Coursework spans machine learning, parallel computing, digital signal processing, and computer architecture.
+            Developed real-time data acquisition systems with aero pressure scanners and wheel speed
+            sensors, improving telemetry analysis and reducing lap times by 6%. Optimized wiring
+            layouts to reduce weight by 15% and ensured seamless communication between ECU, PDM,
+            and 20+ critical sensors.
+          </p>
+        </div>
+      </div>
+
+      <div class="exp-card reveal reveal-delay-1">
+        <div class="exp-logo">🏭</div>
+        <div class="exp-content">
+          <p class="exp-role">Engineering Intern</p>
+          <p class="exp-org">KATOP — Jiangsu, China</p>
+          <p class="exp-date">June 2024 – August 2024</p>
+          <p class="exp-desc">
+            Optimized construction site safety layouts, reducing worker fatigue by 20% while ensuring
+            OSHA compliance. Assisted in development of thermal composite cutting and folding machines
+            and contributed to AutoCAD blueprints. Translated 10+ technical documents for
+            cross-functional teams.
           </p>
         </div>
       </div>
@@ -274,16 +315,15 @@ author_profile: false
   <div class="section-inner">
     <p class="section-label reveal">Contact</p>
     <h2 class="section-title reveal">Get In Touch</h2>
-    <p class="contact-desc reveal">
-      I'm always happy to chat about research, ML systems, or potential collaboration.
-      Feel free to reach out via email or GitHub.
-    </p>
-    <div class="contact-links reveal">
-      <a href="mailto:dongyans@usc.edu" class="contact-link contact-link--email">
-        <i class="fas fa-envelope"></i> dongyans@usc.edu
+    <div class="contact-email-display reveal">dongyans@usc.edu</div>
+    <div class="contact-icon-row reveal">
+      <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener"
+         class="contact-icon-link" title="GitHub">
+        <i class="fab fa-github"></i>
       </a>
-      <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener" class="contact-link contact-link--github">
-        <i class="fab fa-github"></i> GitHub
+      <a href="/JackSun_resume_spring2026.pdf" target="_blank"
+         class="contact-icon-link contact-cv" title="Download CV">
+        CV
       </a>
     </div>
   </div>
@@ -291,8 +331,7 @@ author_profile: false
 
 <script>
 (function () {
-  // ── Scroll-reveal via IntersectionObserver ──────────────
-  const revealEls = document.querySelectorAll('.reveal');
+  // ── Scroll-reveal ────────────────────────────────────────
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((e) => {
@@ -304,25 +343,9 @@ author_profile: false
     },
     { threshold: 0.12 }
   );
-  revealEls.forEach((el) => observer.observe(el));
+  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 
-  // ── Masthead: transparent on hero, opaque when scrolled ─
-  const masthead = document.querySelector('.masthead');
-  const heroHeight = document.querySelector('.hero')
-    ? document.querySelector('.hero').offsetHeight
-    : 300;
-
-  function updateNav() {
-    if (window.scrollY > heroHeight * 0.6) {
-      masthead.classList.add('scrolled');
-    } else {
-      masthead.classList.remove('scrolled');
-    }
-  }
-  window.addEventListener('scroll', updateNav, { passive: true });
-  updateNav();
-
-  // ── Smooth scroll for anchor nav links ──────────────────
+  // ── Smooth scroll ────────────────────────────────────────
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener('click', function (e) {
       const target = document.querySelector(this.getAttribute('href'));
