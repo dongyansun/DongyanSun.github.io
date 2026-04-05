@@ -24,11 +24,8 @@ body {
 // ── Masthead — always grey, no transparency ──────────────────
 .masthead {
   background: $c-nav-bg !important;
-  border-bottom: 1px solid darken($c-nav-bg, 8%) !important;
   box-shadow: none !important;
   transition: none !important;
-
-  &::after { display: none; }
 
   &__inner-wrap {
     padding: 0.7em 2.5em !important;

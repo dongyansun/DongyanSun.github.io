@@ -315,8 +315,8 @@ author_profile: false
   <div class="section-inner">
     <p class="section-label reveal">Contact</p>
     <h2 class="section-title reveal">Get In Touch</h2>
-    <div class="contact-email-display reveal">dongyans@usc.edu</div>
-    <div class="contact-icon-row reveal">
+    <div class="contact-email-display">dongyans@usc.edu</div>
+    <div class="contact-icon-row">
       <a href="https://github.com/jacksuniscool" target="_blank" rel="noopener"
          class="contact-icon-link" title="GitHub">
         <i class="fab fa-github"></i>
