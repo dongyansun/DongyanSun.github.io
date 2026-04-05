@@ -227,6 +227,43 @@ body {
   }
 }
 
+// ── Hero contact links (below photo) ─────────────────────────
+.hero-contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4em;
+  margin-top: 1.2em;
+}
+
+.hero-contact-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.4em;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  &.hero-contact-cv {
+    font-size: 0.85em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    border: 1.5px solid rgba(255, 255, 255, 0.35);
+    border-radius: 5px;
+    padding: 0.3em 0.8em;
+
+    &:hover {
+      border-color: rgba(255, 255, 255, 0.8);
+      color: #fff;
+    }
+  }
+}
+
 .hero-scroll {
   position: absolute;
   bottom: 2.5em;
