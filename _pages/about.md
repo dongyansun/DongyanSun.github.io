@@ -321,24 +321,6 @@ author_profile: false
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════ CONTACT ═══ -->
-<section class="section contact-section" id="contact">
-  <div class="section-inner">
-    <p class="section-label reveal">Contact</p>
-    <h2 class="section-title reveal">Get In Touch</h2>
-    <div class="contact-email-display">dongyans@usc.edu</div>
-    <div class="contact-icon-row">
-      <a href="https://github.com/dongyansun" target="_blank" rel="noopener"
-         class="contact-icon-link" title="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
-      <a href="/JackSun_resume_spring2026.pdf" target="_blank"
-         class="contact-icon-link contact-cv" title="Download CV">
-        CV
-      </a>
-    </div>
-  </div>
-</section>
 
 <script>
 (function () {
