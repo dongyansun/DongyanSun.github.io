@@ -17,5 +17,11 @@ main:
   - title: "Projects"
     url: /#projects
 
+  - title: "Experience"
+    url: /#experience
+
+  - title: "Contact"
+    url: /#contact
+
   - title: "CV"
     url: /cv/
